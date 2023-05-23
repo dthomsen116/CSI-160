@@ -14,5 +14,5 @@ assignment may, for the purpose of assessing this assignment:
 - the purpose of future plagiarism checking)
 
 
-### Week One: [Blockly Maze](https://blockly.games/maze)
+## Week One Assignment: [Blockly Maze](https://blockly.games/maze)
 
