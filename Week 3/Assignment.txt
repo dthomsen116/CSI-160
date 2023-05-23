@@ -1,0 +1,9 @@
+Develop three of your own functions. They can be any mathematical or unit conversion function. Atleast one of your functions must take multiple parameters.  Your functions should return their result and should not use the print() or input() function. Your functions should include a properly formatted docstring that includes a:
+
+One sentence description
+List of arguments with their usage
+Return value and it's usage
+Assumptions and conditions
+Include code that demonstrates the usage of your three functions.  I recommend that your demo code use input() statements to get information from the user, but this is not required.
+
+Extra Challenge:  Ensure that your function gracefully handles all parameters even if they are of the wrong type.

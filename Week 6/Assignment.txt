@@ -1,0 +1,87 @@
+1. Area Codes
+Complete the following function.  Given a list of phone numbers that are missing the area code, append the area code to the phone numbers in the list and return the result list.
+
+def add_area_code(phone_numbers, area_code):
+    """Returns a list of phone numbers with the area code added.
+    Given a list of phone numbers that are missing the area code,
+    append the area code to the phone numbers in the list and return the result list.
+
+    :param phone_numbers: (list) A list of phone numbers (strings) that do not have the area code
+                                Example: ['555-1212']
+    :param area_code: (str) The area code to add Example: '802'
+    :return: (list) A list of phone numbers with the area code Example: ['802-555-1212']
+    """
+    pass
+
+# example usage
+phone_numbers = ['555-1212', '999-0738']
+with_area_code = add_area_code(phone_numbers, '802')
+print(with_area_code)
+Best Practice Tip: Making a copy of the original list will allow you to return a list with area codes without modifying the original list.
+
+2. Print even numbers
+Complete the following function to print the even numbers of a list, one per line.
+
+def print_even(numbers):
+    """Prints the even numbers in a list, one per line
+
+    :param numbers: (list) list of integers
+    :return: None
+    """
+    pass
+ 
+
+3. Guessing Game
+Extend your guessing game from earlier.  Write a program that picks a random number from 1-100.  Then ask the user to guess a number. Tell the user if the answer is higher or lower than the number they guessed, or if they got the correct answer.  Allow them to guess again if they got the guess incorrect.  They should be able to guess numbers an infinite number of times until they get the correct answer, at which point your loop will end.
+
+To generate a number from 1-100 you will need the following code at the beginning of your program:
+
+from random import randint
+randomNum = randint(1,100)
+4. Backpack of Stuff
+Complete the following code. Fill in the two sections of code identified in the comments.
+
+import sys
+
+itemsInBackpack = ["book", "computer", "keys", "travel mug"]
+
+while True:
+    print("Would you like to:")
+    print("1. Add an item to the backpack?")
+    print("2. Check if an item is in the backpack?")
+    print("3. Quit")
+    userChoice = input()
+    
+    if(userChoice == "1"):
+        print("What item do you want to add to the backpack?")
+        itemToAdd = input()
+        
+        ####### YOUR CODE HERE ######
+        #add the item to the backpack
+        ####### YOUR CODE HERE ######
+        
+    if(userChoice == "2"):   
+        print("What item do you want to check to see if it is in the backpack?")
+        itemToCheck = input()
+        
+        ####### YOUR CODE HERE ######
+        #Print out if the user's item is in the backpack
+        ####### YOUR CODE HERE ######
+    
+     if(userChoice == "3"): 
+        sys.exit()
+5. Comma Code
+Say you have a list value like this:
+
+listToPrint = ['apples', 'bananas', 'tofu', 'cats']
+Write a program that prints a list with all the items separated by a comma and a space, with and inserted before the last item. For example, the above list would print 'apples, bananas, tofu, and cats'. But your program should be able to work with any list not just the one shown above. Because of this, you will need to use a loop in case the list to print is shorter or longer than the above list. Do not modify the list by inserting 'and' into the list and do not simply print the entire list (you must loop through printing each item individually). This problem is trickier than it appears at first glance.
+
+You can use the following code to start your program. It will let the user type a list
+
+listToPrint = []
+while True: 
+    newWord = input("Enter a word to add to the list (press return to stop adding words): ") 
+    if newWord == "": 
+        break 
+    else: 
+        listToPrint.append(newWord)

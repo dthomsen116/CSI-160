@@ -1,0 +1,19 @@
+Now that you have learned dictionaries and the caesar cypher, we will be using that knowledge to build a basic password manager app.  
+
+Please note: Using a Password Manager is a great habit, particularly for anyone entering the IT field. Reusing passwords and over-simplified passwords are very dangerous habits.  Need to be convinced? https://haveibeenpwned.com/. The password manager we will build is NOT secure, but is an example to allow us to deepen our skills.
+
+Our program's data structure is a dictionary of dictionaries.  The "title" of each entry is the key for the entries dictionary and all of the other information for that entry is stored inside of the entry.  The password is stored in an encrypted format using the Caesar Cypher.
+
+The menu structure of the starter code is setup to leverage dictionaries as well and has been built for you.  It is designed so that it is easy to extend if you take on extra credit and add features to the password manager.  Each menu option is associated with a function and all of the user interface under that menu option needs to be handled by those functions.
+
+You must complete the following parts:
+
+Add Entry - The ability to add new entries to the password manager.  Needs to encrypt the password.
+Lookup Entry - The ability to lookup and print all of the information about an entry.  Needs to decrypt the password.
+Two additional feature of your choice (You must document this feature properly in your code, any functions require proper docstrings). Here are some suggested options:
+Ability to delete an entry (easiest)
+Ability to edit an entry
+Ability to change the encryption key
+Password complexity check.  Reject new passwords if they don't match certain password complexity rules that you define.  You must communicate these rules clearly to the user. You must check for: length, capitols and special characters.  Alternatively, for those seeking an advanced option checkout using this library instead.
+Multiple file support.  
+Extra Credit given for those that add more than two additional features

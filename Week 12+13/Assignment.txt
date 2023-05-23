@@ -1,0 +1,56 @@
+This lab spans 2 weeks. At the end of the first week you must make an initial submission.
+
+Write a program of your choice that leverages a public API.  You should be creative here.  What would be useful for a user?  If you may NOT use one of the APIs that I demonstrated in class.  You must demonstrate the ability to:
+
+Make API get requests passing parameters with the requests
+Understand the API documentation
+Analyze the data returned in the call and utilize keys to retrieve values
+Manipulate the data in creative ways
+Tip: Try out the API as early in the week as possible!  You may need to request an API key and you may find that the data is less useful than you hoped.  Make sure you expose any problems early in the process.
+
+Initial Draft (End of Week 12) - For your initial draft (worth 5 points) you must:
+
+Select your API
+Successfully make api requests of that API
+Be able to navigate at least some of the data retrieved and display it in a useful way
+Here are some free APIs for you to consider:
+
+Random User - Generate a random user
+https://randomuser.me/documentation
+Example: https://randomuser.me/api/
+
+An API Of Ice and Fire - Game of Thrones database
+https://anapioficeandfire.com/
+
+Star Trek API - Not fully developed free API for Star Trek data
+http://stapi.co/api-documentation
+
+NASA - NASA APIs.  Does require authentication but you can use a demo key
+https://api.nasa.gov/api.html#authentication
+
+# Blackrock API - Access Blackrock Financial Data in the Alladin system
+http://rockthecode.io/api/
+
+Weather Forecast (requires signing up for a free api key)
+https://openweathermap.org/api
+
+
+Dungeons and Dragons (2 options)
+https://open5e.com/
+
+https://api.open5e.com/
+
+or
+https://www.dnd5eapi.co/
+
+
+Music API (not tested):
+https://happi.dev/docs/music
+
+
+Gutendex - A Web API for the free books in Project Gutenberg
+https://gutendex.com/
+
+RapidAPI
+This site acts as an intermediary giving you one place to look for apis and documentation on them.  Can be a positive or a negative depending on the situation.
+https://rapidapi.com/

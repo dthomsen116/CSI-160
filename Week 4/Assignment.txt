@@ -1,0 +1,27 @@
+This week's programming assignment includes 4 short programs:
+
+Implement a voting test. The user enters their age and then the program prints either, “You must be 18 to vote” or “You are of voting age”.
+
+Ask the user to enter a grade percentage.  Convert the grade into a letter grade using the official Champlain College grading scale.  For instance, if the user types 99 then print A+. You can find the grading scale here.
+
+Write a program that asks for two numbers. If the sum of the numbers is greater than 100, print "They add up to a big number" if it is less than/equal to 100 than print "They add up to ____".
+
+Implement a random number guessing game. The computer will pick a number at random from 0-9, the user will be asked to guess the number.  Inform the user if they get the answer correct.
+
+You will need to include the following in your program to create a variable "randomNum" and set it to a number from 0-9 at random:
+
+ 
+
+from random import randint
+random_num = randint(0,9)
+Write a function to compute whether a given year is a leap year in the Hebrew calendar. Your function should be defined:
+ `def is_hebrew_leap_year(year):`
+Your function should return True or False based on whether or not it is a leap year.
+
+The Hebrew calendar is a lunar calendar (somewhat similar to the Chinese and Islamic (Hijri) calendars). Most years have 12 months (lunar cycles), but a lunar cycle is approximately 28 days and this means that the calendar will shift with the solar seasons. The Hebrew calendar's solution is to add a 13th month every few years.
+
+A Hebrew Leap Year (in modern times) depends on which year of the 19-year cycle we are in. The years of the 19 year cycle that are leap years are: 3, 6, 8, 11, 14, 17, and 19. To figure out which year of the cycle you're in, find the remainder of the current year when divided by 19. Important note: when you get the remainder, a remainder of 0 is the 19th year of the cycle, so remainders of 0, 3, 6, 8, 11, 14, and 17 are all leap years.
+
+For example, for the year 5779:
+5779 % 19 = 3
+5779 is year number 3 of the cycle and is therefore a leap year.
