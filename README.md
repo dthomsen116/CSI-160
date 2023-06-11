@@ -23,7 +23,7 @@ assignment may, for the purpose of assessing this assignment:
 
 
 
-## Course Description
+## REPO Description
 
 This course repository provides the work completed and assignments given during _Python Programming_, taught by Professor Canovatchel. It includes essential information about the course, such as its description, objectives, and required materials. Please read through this document to familiarize yourself with the course content and expectations.
 
