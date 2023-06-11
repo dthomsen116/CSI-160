@@ -1,15 +1,15 @@
 
 ## Course Information
 
-### Course Name: **[Python Programming]**
+### Course Name: _Python Programming_
 
-### Course Number: **[CSI-160]**
+### Course Number: _CSI-160_
 
-### Professor: **[Dr. Canovatchel]**
+### Professor: _Dr. Canovatchel_
 
-### Semester: **[Fall 2021]**
+### Semester: _Fall 2021_
 
-### Student Name: **[David Thomsen]**
+### Student Name: _David Thomsen_
 
 
 
